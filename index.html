@@ -6,16 +6,94 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>OM MOBILE SHOP</title>
     <style>
+    
       body {
-    margin: 0;            /* Reset default margin */
+       margin: 0;     
+       width:100vw;
+       /* Reset default margin */
 }
-iframe {
-    display: block;       /* iframes are inline by default */
-    background: #000;
-    border: none;         /* Reset default border */
-    height: 100vh;        /* Viewport-relative units */
-    width: 100vw;
+
+.container{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  height: 100vh;
+  width:100vw;
+  background-color: #e9f2f2;
+  
+  
 }
+
+.heading{
+  font-size: 25px;
+ text-align: center;
+color:#ff0342 ;
+
+top:2px;
+ 
+}
+.notes {
+  text-align: center;
+  color:#476066;
+  font-weight: bold;
+ font-size: 20px;
+background-color:#97fa70 ;  
+border-radius: 30px;
+
+margin: 50px 5px;
+border:  2px dotted black;
+padding: 5px;
+
+}
+.companyDiv{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top:50px;
+}
+.companyDiv>*{
+  margin:10px;
+  border:2px dotted black;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.button{
+  text-decoration: none;
+  color:black;
+  font-size: 40px;
+  border: 1px solid black;
+  border-radius:20px;
+  padding: 4px;
+  background-color:#ff1808 ;
+}
+.vivo{
+  background-color:#1c91eb ;
+  color:white;
+}
+.oppo{
+  background-color: green;
+  color:white;
+}
+.samsung{
+  background-color: black;
+  color:white;
+}
+.realme{
+  background-color: yellow;
+  color:white;
+}
+.iphone{
+  background-color:red ;
+  color:white;
+}
+.redmi{
+  background-color: #ff424f;
+  color:white;
+}
+
       html {
   overflow: hidden;
   overscroll-behavior: none;
@@ -23,8 +101,20 @@ iframe {
     </style>
   </head>
   <body>
-    <iframe src="https://teaches-arnold-cultural-karaoke.trycloudflare.com">
+    <div class='container'>
+      <h1 class='heading'>WELCOME TO OM MOBILE </h1>
+      <div class='companyDiv'>
+                    <h2 class='iphone'>IPHONE</h2> 
+        <h2 class='oppo'>OPPO</h2>
+         <h2 class='vivo'>VIVO</h2>
+          <h2 class='realme'>REALME</h2>
+           <h2 class='samsung'>SAMSUNG</h2>
+            <h2 class='redmi'>REDMI</h2>
+
+      </div>
+      <p class='notes'> Get an amazing deals and offers in best companies like vivo,oppo ,realme or samsung.  and also assured amazing gifts as well as exciting prices </p>
       
-    </iframe>
+      <a class='button' href="https://teaches-arnold-cultural-karaoke.trycloudflare.com">NEXT ➜</a>
+    </div>
   </body>
 </html>
